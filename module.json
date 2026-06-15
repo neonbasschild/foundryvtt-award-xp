@@ -1,69 +1,33 @@
 {
-	"id": "award-xp",
-	"title": "Award XP",
-	"description": "Award Experience to the group, the value of which will awarded to each player, or divided evenly between the players and automatically update their character sheets.",
-	"version": "1.5.1",
-	"compatibility": {
-		"minimum": "9",
-		"compatibleCoreVersion": "11"
-	},
-	"authors": [
-		{
-			"name": "Manuel Vögele",
-			"email": "develop@manuel-voegele.de",
-			"discord": "Stäbchenfisch#5107"
-		}
-	],
-	"esmodules": [
-		"src/main.js"
-	],
-	"templates": [
-		"templates/award_experience_dialog.html",
-		"templates/awarded_experience_message.html",
-		"templates/character_picker_dialog.html",
-		"templates/edit_character_filter_dialog.html",
-		"templates/edit_character_filter_dialog_table_row.html",
-		"templates/levelup_message.html"
-	],
-	"styles": [
-		"src/style.css"
-	],
-	"systems": [
-		"age-of-sigmar-soulbound",
-		"dnd5e",
-		"pf1",
-		"pf2e",
-		"sfrpg",
-		"splittermond",
-		"sw5e"
-	],
-	"languages": [
-		{
-			"lang": "en",
-			"name": "English",
-			"path": "lang/en.json"
-		},
-		{
-			"lang": "de",
-			"name": "Deutsch",
-			"path": "lang/de.json"
-		},
-		{
-			"lang": "ko",
-			"name": "한국어",
-			"path": "lang/ko.json"
-		},
-		{
-			"lang": "pt-BR",
-			"name": "Português do Brasil",
-			"path": "lang/pt-BR.json"
-		}
-	],
-	"url": "https://github.com/manuelVo/foundryvtt-award-xp",
-	"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-award-xp/master/module.json",
-	"download": "https://github.com/manuelVo/foundryvtt-award-xp/archive/v1.5.1.zip",
-	"readme": "https://github.com/manuelVo/foundryvtt-award-xp/blob/master/README.md",
-	"changelog": "https://github.com/manuelVo/foundryvtt-award-xp/blob/master/CHANGELOG.md",
-	"bugs": "https://github.com/manuelVo/foundryvtt-award-xp/issues",
-	"allowBugReporter": true
+  "id": "foundryvtt-award-xp",
+  "title": "Award XP (v14 Refreshed)",
+  "description": "Easily award experience points to the active adventuring party and automatically split it or apply it individually.",
+  "version": "2.0.1",
+  "authors": [
+    {
+      "name": "manuelVo"
+    },
+    {
+      "name": "Derrick Cochran",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "src/award-xp.js"
+  ],
+  "styles": [
+    "src/award-xp.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
 }

@@ -1,0 +1,31 @@
+.award-xp-sidebar-btn {
+    margin: 4px;
+    padding: 6px;
+    background: rgba(40, 120, 40, 0.2);
+    border: 1px solid var(--color-border-light-primary, #7a7975);
+    border-radius: 4px;
+    color: var(--color-text-light-highlight, #f0ebe1);
+    cursor: pointer;
+    width: calc(100% - 8px);
+    font-weight: bold;
+    transition: background 0.2s ease;
+    flex: 0 0 100%;
+}
+
+.award-xp-sidebar-btn:hover {
+    background: rgba(40, 140, 40, 0.4);
+    box-shadow: 0 0 5px rgba(40, 200, 40, 0.5);
+}
+
+.award-xp-form-content {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.award-xp-form-content .note {
+    font-style: italic;
+    color: var(--color-text-dark-secondary);
+    margin-bottom: 4px;
+}

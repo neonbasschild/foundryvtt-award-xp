@@ -1,38 +1,12 @@
 {
-    "award-xp": {
-		"award-xp": "Award Experience",
-		"awarded-to": "{xp} XP awarded to:",
-		"awarded-xp": "Awarded Experience",
-		"blacklist": "Blacklist",
-		"blacklist-explanation": "Characters on the list will never be awarded xp",
-		"char-picker": "Select a character",
-		"characters": "Characters",
-		"group-xp": "Group XP",
-		"levelup": {
-			"title": "Levelup",
-			"desc": "The following characters reached the next level"
-		},
-		"no-char-selected": "No character selected",
-		"whitelist": "Whitelist",
-		"whitelist-explanation": "Only characters on the list can be awarded xp",
-		"xp-nan": "Group XP is not a number",
-		"bonus-xp-placeholder": "bonus solo XP",
-		"bonus-xp-message": "(+{xp} bonus XP)",
-
-		"settings": {
-			"filter-character": {
-				"name": "Filter Characters",
-				"hint": "Specify which characters should appear in the award xp dialog",
-				"button": "Filter Characters"
-			},
-			"solo-xp": {
-				"name": "Solo XP",
-				"hint": "Shows additional inputs for awarding solo xp to characters."
-			},
-			"divide-xp": {
-				"name": "Divide XP",
-				"hint": "Whether or not to divide awarded XP evenly among all characters."
-			}
-		}
-	}
+  "AWARD_XP.DialogTitle": "Award Experience Points",
+  "AWARD_XP.ButtonLabel": "Award XP",
+  "AWARD_XP.DialogNote": "Distribute experience points to the {count} active player character(s).",
+  "AWARD_XP.AmountLabel": "XP Amount",
+  "AWARD_XP.SplitLabel": "Divide Equally Between Party",
+  "AWARD_XP.Confirm": "Distribute XP",
+  "AWARD_XP.InvalidAmount": "Please input an XP value greater than zero.",
+  "AWARD_XP.NoCharacters": "No active character sheets or assigned player characters found to award.",
+  "AWARD_XP.ChatHeader": "🏅 Experience Awarded",
+  "AWARD_XP.ChatSummary": "The Game Master has distributed experience points to the party."
 }

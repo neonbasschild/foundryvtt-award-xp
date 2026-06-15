@@ -1,8 +1,0 @@
-<p><b>{{localize "award-xp.awarded-xp"}}</b><br>
-{{localize "award-xp.awarded-to" xp=xp}}</p>
-
-<p>
-	{{#each characters}}
-		{{this.name}}{{#if this.bonusXp}} {{localize "award-xp.bonus-xp-message" xp=this.bonusXp}}{{/if}}<br>
-	{{/each}}
-</p>
